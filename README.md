@@ -1,2 +1,2 @@
-# OpenCore-asrock-z390-phantom-gaming-itx
-Hackintosh on ASRock Z390 Phantom Gaming/ITX with OpenCore.
+# OpenCore on ASRock Z390 Phantom Gaming/ITX
+This is my repo for running OpenCore on this motherboard.
