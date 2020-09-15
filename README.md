@@ -24,6 +24,10 @@ in macOS and gaming in Windows 10.
 This motherboard came with a Intel 2T2R wifi and bluetooth card whichi I will replace
 as soon as the Broadcom BCM94360NG arrives. Then I should have fully functional WiFI
 and Bluetooth (Apple Stock) with no drivers.
+I also did some hackint around the BIOS and replaced to the stock ASRock logo and
+replaced it with Apple Logo.
+I have mostly used Gigabyte motherboards for previous builds, but this build
+was incredibly easy and solid.
 
 Using the iMac19,1 as smbios and everything just works, mostly... :)
 
@@ -35,6 +39,21 @@ Using the iMac19,1 as smbios and everything just works, mostly... :)
 when I used Clover as bootloader.
 - Opencore takes much longer time to enter SLEEP mode then Clover. Tho, the display goes black and the spinning
 HD turns off. But not the computer itself. "pmset -g log assertions" only tells me IODisplayWrangler is the fault.
+
+## Kexts using with OpenCore
+- Lilu.Kext (requirement!)
+- [AGPMInjector.kext](https://github.com/Pavo-IM/AGPMInjector)
+- AppleALC.kext
+- IntelMausi.kext
+- IntelMausiEthernet.kext
+- IOElectrify.kext
+- NVMeFix.kext
+- SMCProcessor.kext
+- SMCSuperIO.kext
+- USBPorts.kext
+- VirtualSMC.kext (requirement!)
+- WhateverGreen.kext (requirement!)
+
 
 
 
