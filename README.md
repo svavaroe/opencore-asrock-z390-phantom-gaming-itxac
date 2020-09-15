@@ -22,5 +22,13 @@ a Corsair SF750 (750W) which should be small and silent.
 Currently using the iGPU in headless mode and the Radeon RX 580 to drive everything
 in macOS and gaming in Windows 10.
 This motherboard came with a Intel 2T2R wifi and bluetooth card whichi I will replace
-as soon as the Broadcom BCM94360NG arrives. Then I should have fully functional WiFI and
-Bluetooth (Apple Stock) with no drivers.
+as soon as the Broadcom BCM94360NG arrives. Then I should have fully functional WiFI
+and Bluetooth (Apple Stock) with no drivers.
+
+Using the iMac19,1 as smbios and everything just works, mostly... :)
+
+## What does not work ?
+- Have not tried out the USB-C and TB3 as I don't have any of those equipment.
+- I'm having trouble getting the computer to enter SLEEP (manually) which was no problem
+when I used Clover as bootloader.
+
