@@ -1,6 +1,6 @@
 # OpenCore on ASRock Z390 Phantom Gaming/ITXac
 
-Vanilla build with OpenCore 0.6.1 on [ASRock Z390 Phantom Gaming/ITX](https://www.asrock.com/mb/Intel/Z390%20Phantom%20Gaming-ITXac/index.asp), macOS Mojave 10.14.6 and Windows 10 on separate drive(NVMe)
+Vanilla build with [OpenCore 0.6.1](https://github.com/acidanthera/OpenCorePkg/releases/download/0.6.1/OpenCore-0.6.1-RELEASE.zip) on [ASRock Z390 Phantom Gaming/ITX](https://www.asrock.com/mb/Intel/Z390%20Phantom%20Gaming-ITXac/index.asp), macOS Mojave 10.14.6 and Windows 10 on separate drive(NVMe)
 
 ## Hardware List
 | Name                            | Value                                             |
