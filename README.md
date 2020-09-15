@@ -74,6 +74,13 @@ HD turns off. But not the computer itself. "pmset -g log assertions" only tells 
 # USB Mapped on by motherboard / case
 ![USB Ports mapped](usbmap.png)
 
+# In-Win 301c Case
+![In-Win Case](inwincase.jpg)
+
+# Geekbench 5 Score (stock clocks, XMP profile enabled)
+![Geekbench5](geekbench.png)
+
+
 
 
 
