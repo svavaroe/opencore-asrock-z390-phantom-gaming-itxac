@@ -27,6 +27,8 @@ and Bluetooth (Apple Stock) with no drivers.
 
 Using the iMac19,1 as smbios and everything just works, mostly... :)
 
+![About This Mac](aboutthismac.png)
+
 ## What does not work ?
 - Have not tried out the USB-C and TB3 as I don't have any of those equipment.
 - I'm having trouble getting the computer to enter SLEEP (manually) which was no problem
