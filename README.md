@@ -15,6 +15,7 @@ Vanilla build with OpenCore 0.6.1 on [ASRock Z390 Phantom Gaming/ITX](https://ww
 | Other Drives                    | 2TB spinning HD for DATA                          |
 | PSU                             | Using some old 700W PSU.                          |
 | Display                         | Apple 27" Cinema Display (DisplayPort)            |
+| Case                            | In-Win 301c Case w/USB-C at front w/RGB-Led (mATX)|
 
 Using some old PSU I had which works fine, but a little noisy. Going to replace it with
 a Corsair SF750 (750W) which should be small and silent.
@@ -63,12 +64,16 @@ HD turns off. But not the computer itself. "pmset -g log assertions" only tells 
 - SSDT-AWAC.aml
 - SSDT-EC-USBX.aml
 - SSDT-GPRW.aml
-- SSDT-HPET.aml
+- SSDT-HPET.aml (generated via your own DSDT.dsl file, SSDTTime)
 - SSDT-PLUG.aml
 - SSDT-PMC.aml
 - SSDT-SBUS-MCHC.aml
 - SSDT-TB3.aml
-- SSDT-UIAC.aml
+- SSDT-UIAC.aml (USB Port mapping, generated via Hackintool along side USBPorts.kext)
+
+# USB Mapped on by motherboard / case
+![USB Ports mapped](usbmap.png)
+
 
 
 
