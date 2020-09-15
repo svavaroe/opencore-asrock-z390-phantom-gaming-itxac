@@ -40,6 +40,11 @@ when I used Clover as bootloader.
 - Opencore takes much longer time to enter SLEEP mode then Clover. Tho, the display goes black and the spinning
 HD turns off. But not the computer itself. "pmset -g log assertions" only tells me IODisplayWrangler is the fault.
 
+## OpenCore drivers
+- HfsPlus.efi
+- OpenCanoby.efi
+- OpenRuntime.efi
+
 ## Kexts using with OpenCore
 - Lilu.Kext (requirement!)
 - [AGPMInjector.kext](https://github.com/Pavo-IM/AGPMInjector)
@@ -53,6 +58,18 @@ HD turns off. But not the computer itself. "pmset -g log assertions" only tells 
 - USBPorts.kext
 - VirtualSMC.kext (requirement!)
 - WhateverGreen.kext (requirement!)
+
+# System Specific SSDT and ACPI
+- SSDT-AWAC.aml
+- SSDT-EC-USBX.aml
+- SSDT-GPRW.aml
+- SSDT-HPET.aml
+- SSDT-PLUG.aml
+- SSDT-PMC.aml
+- SSDT-SBUS-MCHC.aml
+- SSDT-TB3.aml
+- SSDT-UIAC.aml
+
 
 
 
