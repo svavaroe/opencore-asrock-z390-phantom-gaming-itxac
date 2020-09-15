@@ -32,5 +32,7 @@ Using the iMac19,1 as smbios and everything just works, mostly... :)
 - I'm having trouble getting the computer to enter SLEEP (manually) which was no problem
 when I used Clover as bootloader.
 - Opencore takes much longer time to enter SLEEP mode then Clover. Tho, the display goes black and the spinning
-HD turns off. But not the computer itself.
+HD turns off. But not the computer itself. "pmset -g log assertions" only tells me IODisplayWrangler is the fault.
+
+
 
