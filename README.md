@@ -25,7 +25,7 @@ in macOS and gaming in Windows 10.
 This motherboard came with a Intel 2T2R wifi and bluetooth card whichi I will replace
 as soon as the Broadcom BCM94360NG arrives. Then I should have fully functional WiFI
 and Bluetooth (Apple Stock) with no drivers.
-I also did some hackint around the BIOS and replaced to the stock ASRock logo and
+I also did some hacking around the BIOS and replaced to the stock ASRock logo and
 replaced it with Apple Logo.
 I have mostly used Gigabyte motherboards for previous builds, but this build
 was incredibly easy and solid.
@@ -36,10 +36,6 @@ Using the iMac19,1 as smbios and everything just works, mostly... :)
 
 ## What does not work ?
 - Have not tried out the USB-C and TB3 as I don't have any of those equipment.
-- I'm having trouble getting the computer to enter SLEEP (manually) which was no problem
-when I used Clover as bootloader.
-- Opencore takes much longer time to enter SLEEP mode then Clover. Tho, the display goes black and the spinning
-HD turns off. But not the computer itself. "pmset -g log assertions" only tells me IODisplayWrangler is the fault.
 
 ## OpenCore drivers
 - HfsPlus.efi
@@ -51,25 +47,20 @@ HD turns off. But not the computer itself. "pmset -g log assertions" only tells 
 - [AGPMInjector.kext](https://github.com/Pavo-IM/AGPMInjector)
 - AppleALC.kext
 - IntelMausi.kext
-- IntelMausiEthernet.kext
 - IOElectrify.kext
 - NVMeFix.kext
 - SMCProcessor.kext
 - SMCSuperIO.kext
-- USBPorts.kext
+- USBMap.kext (After USB Ports Discovery, not to be used with USBInjectAll.kext)
 - VirtualSMC.kext (requirement!)
 - WhateverGreen.kext (requirement!)
 
 # System Specific SSDT and ACPI
 - SSDT-AWAC.aml
-- SSDT-EC-USBX.aml
-- SSDT-GPRW.aml
-- SSDT-HPET.aml (generated via your own DSDT.dsl file, SSDTTime)
-- SSDT-PLUG.aml
+- SSDT-EC-USBX-DESKTOP.aml
+- SSDT-PLUG-DRTNIA.aml
 - SSDT-PMC.aml
-- SSDT-SBUS-MCHC.aml
-- SSDT-TB3.aml
-- SSDT-UIAC.aml (USB Port mapping, generated via Hackintool along side USBPorts.kext)
+
 
 # USB Mapped on by motherboard / case
 ![USB Ports mapped](usbmap.png)
