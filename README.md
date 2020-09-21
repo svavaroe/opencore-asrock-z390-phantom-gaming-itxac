@@ -30,7 +30,7 @@ replaced it with Apple Logo.
 I have mostly used Gigabyte motherboards for previous builds, but this build
 was incredibly easy and solid.
 
-Using the iMac19,1 as smbios and everything just works, mostly... :)
+Using the iMac19,1 as smbios and everything just works.
 
 ![About This Mac](aboutthismac.png)
 
