@@ -68,6 +68,7 @@ Using the iMac19,1 as smbios and everything just works.
 I have injected the following ports in my config :
 ### High Speed   (USB 2) = HS03,HS04,HS08,HS09,HS10,HS11
 ### Super Speed  (USB 3) = SS01,SS02,SS07,SS08,SS09,SS10
+- All USB ports are configured as Type 3 e.g. USB 3 ports which is backwards with USB2.0
 ### Internal (BT future) = HS14
 - HS14 is set to 255(Internal Type) and is not disabled. If I will replace the card with a Broadcom type.
 ### No TB3 or USB-C stuff injected or tried as I dont have any devices to test.
