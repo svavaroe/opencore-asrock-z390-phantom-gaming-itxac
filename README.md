@@ -62,7 +62,7 @@ Using the iMac19,1 as smbios and everything just works.
 - SSDT-PMC.aml
 
 
-# USB Mapped on by motherboard / case
+# USB Mapped on my motherboard / case
 ![USB Ports mapped](usbmap.png)
 
 I have injected the following ports in my config :
