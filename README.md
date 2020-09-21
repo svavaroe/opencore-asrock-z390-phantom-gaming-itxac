@@ -74,8 +74,8 @@ I have injected the following ports in my config :
 - HS14 is set to 255(Internal Type) and is not disabled. If I will replace the card with a Broadcom type.
 ### No TB3 or USB-C stuff injected or tried as I dont have any devices to test.
 
-### <u>I highly recommend to discover your ports and configure them accordingly 
-### using the USB Map command and the [guide](https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit).</u>
+### I highly recommend to discover your ports and configure them accordingly 
+### using the USB Map command and the [guide](https://dortania.github.io/OpenCore-Post-Install/usb/#macos-and-the-15-port-limit).
 
 
 
