@@ -54,6 +54,7 @@ Using the iMac19,1 as smbios and everything just works.
 - USBMap.kext (After USB Ports Discovery, not to be used with USBInjectAll.kext)
 - VirtualSMC.kext (requirement!)
 - WhateverGreen.kext (requirement!)
+- XHCI-unsupported.kext (required with ASRock motherboard)
 
 # System Specific SSDT and ACPI
 - SSDT-AWAC.aml
@@ -72,6 +73,8 @@ I have injected the following ports in my config :
 ### Internal (BT future) = HS14
 - HS14 is set to 255(Internal Type) and is not disabled. If I will replace the card with a Broadcom type.
 ### No TB3 or USB-C stuff injected or tried as I dont have any devices to test.
+
+### I highly recommend to discover your ports and configure them accordingly.
 
 
 
