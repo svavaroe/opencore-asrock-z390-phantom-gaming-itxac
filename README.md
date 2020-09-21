@@ -66,7 +66,12 @@ Using the iMac19,1 as smbios and everything just works.
 ![USB Ports mapped](usbmap.png)
 
 I have injected the following ports in my config :
--### HS03,HS04,SS01,SS02 = USB 3 ports under PS2 Plug
+### High Speed   (USB 2) = HS03,HS04,HS08,HS09,HS10,HS11
+### Super Speed  (USB 3) = SS01,SS02,SS07,SS08,SS09,SS10
+### Internal (BT future) = HS14
+### No TB3 or USB-C stuff injected or tried as I dont have any devices to test.
+
+
 
 - HS14 is set to 255(Internal Type) and is not disabled. If I will replace the card with a Broadcom type.
 
